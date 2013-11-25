@@ -14,28 +14,44 @@
     </h:head>
 
     <h:body>
-        <header>
-            <img src="#" alt="logo"/>
-            <h1>Titre Site</h1>
-            <div id="account">
-                <p>zone de connexion</p>
-            </div>
-            <ul id="Navpets">
-                <li>dog</li>
-                <li>cat</li>
-            </ul>
-        </header>
-        <div id="center">
-            <nav>
-                <ui:insert name="left">Left</ui:insert>
-            </nav>
-            <div id="content" class="left_content">
-                <ui:insert name="content">Content</ui:insert>
-            </div><!--end content-->
-        </div><!--end center-->
-        <footer>
-            <ui:insert name="bottom">Bottom</ui:insert>
-        </footer>
+        <div id="main">
+            <header>
+                <img src="#" alt="logo"/>
+                <h1>Titre Site</h1>
+                <ul id="language">
+                    <li>Language : <span id="language_choose">En</span></li>
+                    <ul>
+                        <li>English</li>
+                        <li>French</li>   
+                    </ul>
+                </ul>
+                <div id="account">
+                    <p>connection area -working-</p>
+                </div>
+                <ul id="Navpets">
+                    <li>dog</li>
+                    <li>cat</li>
+                </ul>
+                <div id="search">
+                    <p>search area -working-</p>
+                </div>
+            </header>
+            <div id="center">
+                <nav>
+                    <ul>
+                        <li>Foods</li>
+                        <li>Health</li>
+                        <li>comfort</li>
+                    </ul>
+                </nav>
+                <div id="content" class="left_content">
+                    <ui:insert name="content">Content</ui:insert>
+                </div><!--end content-->
+            </div><!--end center-->
+            <footer>
+                <ui:insert name="bottom">Bottom</ui:insert>
+            </footer>
+        </div>
     </h:body>
 
 </html>

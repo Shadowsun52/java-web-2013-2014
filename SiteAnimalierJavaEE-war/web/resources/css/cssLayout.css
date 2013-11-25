@@ -1,17 +1,23 @@
 
+#main {
+    width: 990px;
+    margin: 10px auto 0 auto;
+}
+
 header {
     position: relative;
-    background-color: #036fab;
-    color: white;
+    /*background-color: #9ac25a;*/
+    background-image: url("../../images/bg-header.png");
     padding: 5px;
     margin: 0px 0px 10px 0px;
+    height: 210px;
 }
 
 footer {
     position: relative;
     background-color: #c2dfef;
     padding: 5px;
-    margin: 10px 0px 0px 0px;
+    margin: 10px 15px 0px 15px;
 }
 
 nav {
@@ -26,6 +32,10 @@ nav {
     background-color: #ece3a5;
     padding: 5px;
     width: 150px;
+}
+
+#center {
+    margin: 0 15px;
 }
 
 .center_content {
