@@ -8,7 +8,6 @@ header {
     position: relative;
     /*background-color: #9ac25a;*/
     background-image: url("../../images/bg-header.png");
-    padding: 5px;
     height: 210px;
 }
 
